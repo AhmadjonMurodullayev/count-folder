@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homwork</title>
+</head>
+<body>
+       <section class="w-[80%] m-auto flex flex-col p-4  my-7 border-2 border-red-700 rounded-lg">
+              <div class="flex my-3 m-auto ">
+                <button id="allMinus" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">-</button>
+                <button id="allPlus" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Plus +</button>
+              </div>
+
+              <div class="flex gap-3 ">
+            <div class="w-[50%] border-2 border-green-500 rounded-lg p-5">
+                <h1 class="text-center">1-componet</h1>
+                <div class="border-2 my-2 p-4 flex flex-col gap-2 rounded-xl">
+                    <h1>
+                        A kompanet
+                    </h1>
+                        <h3>
+                            total: <span id="num1">0</span>
+                        </h3>
+                        <div class="flex ">
+                            <button class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600">Plus</button>
+                            <button class="text-gray-900 hover:text-blue-500 border border-gray-800 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-400 dark:text-gray-400 dark:hover:text-black dark:hover:bg-blue-500 ">-</button>
+                        </div>
+                  </div>
+                <div class="border-2 my-2 p-4 flex flex-col gap-2 rounded-xl">
+                    <h1>
+                        B kompanet
+                    </h1>
+                        <h3>
+                            total: <span id="num2">0</span>
+                        </h3>
+                        <div class="flex ">
+                            <button class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 ">+</button>
+                            <button class="text-gray-900 hover:text-blue-500 border border-gray-800 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-400 dark:text-gray-400 dark:hover:text-black dark:hover:bg-blue-500 ">-</button>
+                        </div>
+                  </div>
+            </div>
+            <div class="w-[50%] border-2 rounded-lg p-5 border-yellow-200">
+                <h1 class="text-center">2-componet</h1>
+                <div class="border-2 my-2 p-4 flex flex-col gap-2 rounded-xl">
+                    <h1>
+                        C kompanet
+                    </h1>
+                        <h3>
+                            total: <span id="num3">0</span>
+                        </h3>
+                        <div class="flex ">
+                            <button class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600">+</button>
+                            <button class="text-gray-900 hover:text-blue-500 border border-gray-800 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-400 dark:text-gray-400 dark:hover:text-black dark:hover:bg-blue-500">-</button>
+                        </div>
+                  </div>
+                <div class="border-2 my-2 p-4 flex flex-col gap-2 rounded-xl">
+                    <h1>
+                        D kompanet
+                    </h1>
+                        <h3>
+                            total: <span id="num4">0</span>
+                        </h3>
+                        <div class="flex ">
+                            <button class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 ">+</button>
+                            <button class="text-gray-900 hover:text-blue-500 border border-gray-800 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-400 dark:text-gray-400 dark:hover:text-black dark:hover:bg-blue-500 ">-</button>
+                        </div>
+                  </div>
+            </div>
+                
+              </div>
+       </section>
+    <script src="./app.js"></script>
+</body>
+</html>
